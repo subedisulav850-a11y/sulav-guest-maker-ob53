@@ -36,7 +36,7 @@ CORS(app)
 HEX_KEY = "2ee44819e9b4598845141067b281621874d0d5d7af9d8f7e00c1e54715b7d1e3"
 KEY = bytes.fromhex(HEX_KEY)
 
-REGISTER_URL = "https://100067.connect.garena.com/api/v2/oauth/guest:register"
+REGISTER_URL = "https://sulavxregister.vercel.app/guest/register"
 TOKEN_URL = "https://100067.connect.garena.com/api/v2/oauth/guest/token:grant"
 MAJOR_REGISTER_URL = "https://loginbp.ggpolarbear.com/MajorRegister"
 MAJOR_LOGIN_URL = "https://loginbp.ggpolarbear.com/MajorLogin"
