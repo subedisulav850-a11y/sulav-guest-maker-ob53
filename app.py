@@ -299,7 +299,7 @@ def home():
             "POST /generate": "Generate accounts (POST method)",
             "GET /stats": "API statistics"
         },
-        "usage_example": "https://your-api.vercel.app/generate?name=SULAV&password=Test&count=10&region=IND"
+        "usage_example": "https://sulav-guest-maker-ob53.vercel.app/generate?name=SULAV&password=Test&count=10&region=IND"
     })
 
 @app.route('/health', methods=['GET'])
